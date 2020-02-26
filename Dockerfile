@@ -8,4 +8,4 @@ RUN apt-get update
 RUN apt-get install -y gcc && \
     rm -rf /var/lib/apt/lists/*
 
-VOLUME ["/"]
+VOLUME ["/tmp"]
